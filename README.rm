@@ -1,4 +1,3 @@
-````markdown
 # Generador de Códigos QR con Tkinter
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -29,50 +28,10 @@ Es ideal para quienes necesitan generar códigos QR rápidamente sin depender de
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git clone https://github.com/lexyDeveloper/QR-Creator
 cd TU_REPOSITORIO
-````
 
+---
 2. Instala las dependencias necesarias:
 
-```bash
 pip install qrcode[pil] pillow
-```
-
----
-
-## Uso
-
-1. Ejecuta el script:
-
-```bash
-python app_qr.py
-```
-
-2. Ingresa el enlace que deseas convertir en QR.
-3. Haz clic en **Generar QR** para visualizarlo.
-4. Haz clic en **Guardar QR** para elegir la ubicación y guardar la imagen en tu equipo.
-
----
-
-## Captura de pantalla (opcional)
-
-![Captura](ruta_a_captura.png)
-
----
-
-## Dependencias
-
-* [Python 3.x](https://www.python.org/)
-* [qrcode](https://pypi.org/project/qrcode/)
-* [Pillow](https://pypi.org/project/Pillow/)
-
----
-
-## Autor
-
-**[Tu nombre]**
-GitHub: [TU_USUARIO](https://github.com/TU_USUARIO)
-
-```
-
