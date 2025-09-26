@@ -1,0 +1,78 @@
+````markdown
+# Generador de Códigos QR con Tkinter
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green)
+
+## Descripción
+Este proyecto es una aplicación de escritorio en Python que permite generar códigos QR a partir de enlaces. Cuenta con una interfaz gráfica sencilla creada con Tkinter, donde puedes:
+
+- Ingresar un enlace para generar el QR.  
+- Visualizar el código QR directamente en la ventana.  
+- Guardar la imagen del QR en la ubicación que prefieras.  
+- Personalizar colores del QR (por ejemplo, fondo negro y código blanco).  
+
+Es ideal para quienes necesitan generar códigos QR rápidamente sin depender de herramientas online.
+
+---
+
+## Funcionalidades
+- Generación de códigos QR dinámicos.  
+- Visualización del QR en la aplicación.  
+- Guardado del QR en formato PNG.  
+- Personalización básica de colores.  
+- Interfaz amigable con soporte de ventana negra y texto en blanco.
+
+---
+
+## Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+cd TU_REPOSITORIO
+````
+
+2. Instala las dependencias necesarias:
+
+```bash
+pip install qrcode[pil] pillow
+```
+
+---
+
+## Uso
+
+1. Ejecuta el script:
+
+```bash
+python app_qr.py
+```
+
+2. Ingresa el enlace que deseas convertir en QR.
+3. Haz clic en **Generar QR** para visualizarlo.
+4. Haz clic en **Guardar QR** para elegir la ubicación y guardar la imagen en tu equipo.
+
+---
+
+## Captura de pantalla (opcional)
+
+![Captura](ruta_a_captura.png)
+
+---
+
+## Dependencias
+
+* [Python 3.x](https://www.python.org/)
+* [qrcode](https://pypi.org/project/qrcode/)
+* [Pillow](https://pypi.org/project/Pillow/)
+
+---
+
+## Autor
+
+**[Tu nombre]**
+GitHub: [TU_USUARIO](https://github.com/TU_USUARIO)
+
+```
+
