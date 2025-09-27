@@ -9,7 +9,6 @@ Este proyecto es una aplicación de escritorio en Python que permite generar có
 - Ingresar un enlace para generar el QR.  
 - Visualizar el código QR directamente en la ventana.  
 - Guardar la imagen del QR en la ubicación que prefieras.  
-- Personalizar colores del QR (por ejemplo, fondo negro y código blanco).  
 
 Es ideal para quienes necesitan generar códigos QR rápidamente sin depender de herramientas online.
 
@@ -19,19 +18,11 @@ Es ideal para quienes necesitan generar códigos QR rápidamente sin depender de
 - Generación de códigos QR dinámicos.  
 - Visualización del QR en la aplicación.  
 - Guardado del QR en formato PNG.  
-- Personalización básica de colores.  
-- Interfaz amigable con soporte de ventana negra y texto en blanco.
 
 ---
 
 ## Instalación
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/lexyDeveloper/QR-Creator
-cd TU_REPOSITORIO
-
----
-2. Instala las dependencias necesarias:
+1. Instala las dependencias necesarias:
 
 pip install qrcode[pil] pillow
